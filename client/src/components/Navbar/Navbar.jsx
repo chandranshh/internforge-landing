@@ -1,9 +1,9 @@
-import BellIcon from "../assets/Navbar/notification.png";
-import UserImage from "../assets/Navbar/user.png";
-import ClipBoard from "../assets/Navbar/clipboardtext.png";
-import Message from "../assets/Navbar/messagequestion.png";
-import TaskSquare from "../assets/Navbar/tasksquare.png";
-import Edit from "../assets/Navbar/edit.png";
+import BellIcon from "../../assets/Navbar/notification.png";
+import UserImage from "../../assets/Navbar/user.png";
+import ClipBoard from "../../assets/Navbar/clipboardtext.png";
+import Message from "../../assets/Navbar/messagequestion.png";
+import TaskSquare from "../../assets/Navbar/tasksquare.png";
+import Edit from "../../assets/Navbar/edit.png";
 
 function Navbar() {
   return (
@@ -29,7 +29,7 @@ function Navbar() {
           <div className="whitespace-nowrap">Contact Us</div>
         </div>
       </div>
-      <div className="flex gap-2 justify-center items-center">
+      <div className="flex gap-4 justify-center items-center">
         <img
           className="h-[30px] w-[30px] cursor-pointer"
           src={BellIcon}
