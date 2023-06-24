@@ -14,15 +14,19 @@ export const jobData = [
     experience: "Intermediate",
     aboutUs:
       "Xapo Visuals is a creative studio that specializes in motion graphics and animation. We are a team of 10 people and have worked with over 100 clients in the past 5 years. We are looking for a motion graphics designer to join our team.",
-    requirements: `- Proficiency in Adobe After Effects, Photoshop, and Illustrator
-    - Experience in Blender and Figma is a plus
-    - Ability to work in a team
-    - Good communication skills
-    - Ability to work under pressure and meet deadlines`,
-    responsibilities: `- Create motion graphics and animations for our clients
-    - Work with the team to create storyboards and scripts
-    - Work on multiple projects at the same time
-    - Meet deadlines and deliver high-quality work`,
+    requirements: [
+      "Proficiency in Adobe After Effects, Photoshop, and Illustrator",
+      "Experience in Blender and Figma is a plus",
+      "Ability to work in a team",
+      "Good communication skills",
+      "Ability to work under pressure and meet deadlines",
+    ],
+    responsibilities: [
+      "Create motion graphics and animations for our clients",
+      "Work with the team to create storyboards and scripts",
+      "Work on multiple projects at the same time",
+      "Meet deadlines and deliver high-quality work",
+    ],
   },
   {
     jobTitle: "Digital Marketing Specialist",
@@ -45,15 +49,19 @@ export const jobData = [
     experience: "Mid-level",
     aboutUs:
       "DigitalBoost Agency is a leading digital marketing agency focused on helping businesses grow their online presence. We are seeking a talented digital marketing specialist to join our team and implement effective strategies to drive organic and paid traffic.",
-    requirements: `- Strong knowledge of SEO and SEM principles
-  - Experience with social media marketing and advertising
-  - Proficiency in Google Analytics and other marketing tools
-  - Excellent copywriting and content creation skills
-  - Analytical mindset and ability to analyze campaign performance`,
-    responsibilities: `- Develop and implement digital marketing campaigns
-  - Optimize website content and landing pages for search engines
-  - Manage social media accounts and run paid advertising campaigns
-  - Monitor and analyze campaign performance metrics`,
+    requirements: [
+      "Strong knowledge of SEO and SEM principles",
+      "Experience with social media marketing and advertising",
+      "Proficiency in Google Analytics and other marketing tools",
+      "Excellent copywriting and content creation skills",
+      "Analytical mindset and ability to analyze campaign performance",
+    ],
+    responsibilities: [
+      "Develop and implement digital marketing campaigns",
+      "Optimize website content and landing pages for search engines",
+      "Manage social media accounts and run paid advertising campaigns",
+      "Monitor and analyze campaign performance metrics",
+    ],
   },
   {
     jobTitle: "Software Engineer",
@@ -80,31 +88,7 @@ export const jobData = [
   - Write clean, efficient, and maintainable code
   - Perform unit testing and debugging`,
   },
-  {
-    jobTitle: "Web Developer",
-    company: "CodeCraft Solutions",
-    companyLogo: "https://i.imgur.com/ABCD123.png",
-    skills: ["HTML", "CSS", "JavaScript", "React", "Node.js"],
-    duration: "12 months",
-    stipend: "Rs. 20,000",
-    applicants: "142",
-    postedOn: "2023-07-01",
-    endsBy: "2024-07-01",
-    location: "Delhi",
-    openPositions: "3",
-    experience: "Senior",
-    aboutUs:
-      "CodeCraft Solutions is a software development company specializing in web and mobile applications. We are seeking experienced web developers to join our team and work on exciting projects using the latest technologies.",
-    requirements: `- Strong proficiency in HTML, CSS, and JavaScript
-    - Experience with React and Node.js
-    - Knowledge of responsive web design
-    - Familiarity with version control systems (e.g., Git)
-    - Strong problem-solving and debugging skills`,
-    responsibilities: `- Develop and maintain web applications
-    - Collaborate with designers and backend developers
-    - Implement responsive and accessible web designs
-    - Write clean and efficient code`,
-  },
+
   {
     jobTitle: "Data Analyst",
     company: "Insights Analytics",
@@ -126,15 +110,19 @@ export const jobData = [
     experience: "Intermediate",
     aboutUs:
       "Insights Analytics is a data-driven consulting firm helping businesses make informed decisions. We are looking for skilled data analysts who can extract insights from complex data sets and present them in a meaningful way to our clients.",
-    requirements: `- Proficiency in SQL and Python
-    - Experience with data visualization tools (e.g., Tableau, Power BI)
-    - Strong analytical and problem-solving skills
-    - Knowledge of statistical analysis techniques
-    - Advanced Excel skills`,
-    responsibilities: `- Collect, clean, and analyze large datasets
-    - Create interactive visualizations and reports
-    - Perform statistical analysis and generate insights
-    - Present findings to clients in a clear and concise manner`,
+    requirements: [
+      "Proficiency in SQL and Python",
+      "Experience with data visualization tools (e.g., Tableau, Power BI)",
+      "Strong analytical and problem-solving skills",
+      "Knowledge of statistical analysis techniques",
+      "Advanced Excel skills",
+    ],
+    responsibilities: [
+      "Collect, clean, and analyze large datasets",
+      "Create interactive visualizations and reports",
+      "Perform statistical analysis and generate insights",
+      "Present findings to clients in a clear and concise manner",
+    ],
   },
   {
     jobTitle: "Graphic Designer",
@@ -151,15 +139,19 @@ export const jobData = [
     experience: "Entry level",
     aboutUs:
       "Pixel Perfect Design is a design agency specializing in graphic design and branding solutions. With a team of 15 designers, we have served clients across various industries. Join us to create visually stunning designs that leave a lasting impact.",
-    requirements: `- Proficiency in Adobe Photoshop, Illustrator, and InDesign
-    - Experience with Sketch and knowledge of typography
-    - Strong creativity and attention to detail
-    - Ability to collaborate effectively with team members
-    - Excellent time management skills`,
-    responsibilities: `- Design graphics for print and digital media
-    - Create brand identities and marketing collateral
-    - Collaborate with clients to understand their design needs
-    - Ensure timely delivery of design projects`,
+    requirements: [
+      "Proficiency in Adobe Photoshop, Illustrator, and InDesign",
+      "Experience with Sketch and knowledge of typography",
+      "Strong creativity and attention to detail",
+      "Ability to collaborate effectively with team members",
+      "Excellent time management skills",
+    ],
+    responsibilities: [
+      "Design graphics for print and digital media",
+      "Create brand identities and marketing collateral",
+      "Collaborate with clients to understand their design needs",
+      "Ensure timely delivery of design projects",
+    ],
   },
   {
     jobTitle: "UX/UI Designer",
@@ -176,15 +168,19 @@ export const jobData = [
     experience: "Junior",
     aboutUs:
       "Digital Innovators is a technology company focused on creating innovative digital solutions. We are seeking a talented UX/UI designer to join our team and help us craft intuitive and visually appealing user experiences for our products.",
-    requirements: `- Solid understanding of user-centered design principles
-    - Proficiency in wireframing and prototyping tools
-    - Experience with usability testing and user research
-    - Proficiency in Adobe XD and Figma
-    - Strong problem-solving skills`,
-    responsibilities: `- Design user interfaces for web and mobile applications
-    - Create wireframes, prototypes, and user flows
-    - Conduct usability testing and iterate based on feedback
-    - Collaborate with development teams to implement designs`,
+    requirements: [
+      "Solid understanding of user-centered design principles",
+      "Proficiency in wireframing and prototyping tools",
+      "Experience with usability testing and user research",
+      "Proficiency in Adobe XD and Figma",
+      "Strong problem-solving skills",
+    ],
+    responsibilities: [
+      "Design user interfaces for web and mobile applications",
+      "Create wireframes, prototypes, and user flows",
+      "Conduct usability testing and iterate based on feedback",
+      "Collaborate with development teams to implement designs",
+    ],
   },
   {
     jobTitle: "Content Writer",
@@ -201,15 +197,19 @@ export const jobData = [
     experience: "Entry level",
     aboutUs:
       "WordSmith Creative is a content marketing agency dedicated to crafting compelling and engaging content for businesses. We are looking for talented content writers who can create captivating copy that resonates with our clients' target audiences.",
-    requirements: `- Excellent writing and editing skills
-    - Knowledge of SEO best practices
-    - Strong research and analytical abilities
-    - Attention to detail and grammar proficiency
-    - Ability to meet deadlines`,
-    responsibilities: `- Write engaging and persuasive copy for various platforms
-    - Conduct research to generate unique content ideas
-    - Optimize content for search engine visibility
-    - Proofread and edit content for grammar and clarity`,
+    requirements: [
+      "Excellent writing and editing skills",
+      "Knowledge of SEO best practices",
+      "Strong research and analytical abilities",
+      "Attention to detail and grammar proficiency",
+      "Ability to meet deadlines",
+    ],
+    responsibilities: [
+      "Write engaging and persuasive copy for various platforms",
+      "Conduct research to generate unique content ideas",
+      "Optimize content for search engine visibility",
+      "Proofread and edit content for grammar and clarity",
+    ],
   },
   {
     jobTitle: "Front-end Developer",
@@ -226,15 +226,19 @@ export const jobData = [
     experience: "Mid-level",
     aboutUs:
       "PixelPerfect Web Solutions is a web development agency specializing in creating visually stunning and user-friendly websites. Join our team of skilled developers to bring design concepts to life and deliver exceptional user experiences.",
-    requirements: `- Strong knowledge of HTML, CSS, and JavaScript
-    - Experience with front-end frameworks like React
-    - Familiarity with responsive design principles
-    - Proficiency in cross-browser compatibility
-    - Attention to detail and pixel-perfect implementation`,
-    responsibilities: `- Develop and implement front-end solutions
-    - Collaborate with designers to translate mockups into code
-    - Ensure cross-browser and device compatibility
-    - Optimize websites for performance and usability`,
+    requirements: [
+      "Strong knowledge of HTML, CSS, and JavaScript",
+      "Experience with front-end frameworks like React",
+      "Familiarity with responsive design principles",
+      "Proficiency in cross-browser compatibility",
+      "Attention to detail and pixel-perfect implementation",
+    ],
+    responsibilities: [
+      "Develop and implement front-end solutions",
+      "Collaborate with designers to translate mockups into code",
+      "Ensure cross-browser and device compatibility",
+      "Optimize websites for performance and usability",
+    ],
   },
   {
     jobTitle: "Business Analyst",
@@ -257,15 +261,19 @@ export const jobData = [
     experience: "Senior",
     aboutUs:
       "Strategic Insights Consulting is a management consulting firm specializing in strategic planning and business optimization. We are seeking experienced business analysts to help our clients identify opportunities and make data-driven decisions.",
-    requirements: `- Strong business analysis skills and experience
-    - Proficiency in data analysis and visualization
-    - Ability to gather and document requirements
-    - Project management and stakeholder coordination
-    - Excellent communication and presentation skills`,
-    responsibilities: `- Conduct business analysis and gather requirements
-    - Analyze data and provide actionable insights
-    - Assist in project planning and coordination
-    - Prepare and deliver client presentations`,
+    requirements: [
+      "Strong business analysis skills and experience",
+      "Proficiency in data analysis and visualization",
+      "Ability to gather and document requirements",
+      "Project management and stakeholder coordination",
+      "Excellent communication and presentation skills",
+    ],
+    responsibilities: [
+      "Conduct business analysis and gather requirements",
+      "Analyze data and provide actionable insights",
+      "Assist in project planning and coordination",
+      "Prepare and deliver client presentations",
+    ],
   },
   {
     jobTitle: "UI/UX Designer",
@@ -282,15 +290,19 @@ export const jobData = [
     experience: "Intermediate",
     aboutUs:
       "DesignLab Solutions is a design agency focused on creating intuitive and visually appealing user interfaces. Join our team of talented designers to create user-centered designs that enhance the overall user experience.",
-    requirements: `- Experience in user research and creating user personas
-    - Proficiency in wireframing and prototyping tools
-    - Knowledge of usability testing methodologies
-    - Strong understanding of design principles and typography
-    - Proficiency in Adobe XD or similar design tools`,
-    responsibilities: `- Conduct user research and create user personas
-    - Design wireframes and interactive prototypes
-    - Conduct usability testing and iterate based on feedback
-    - Collaborate with developers to implement designs`,
+    requirements: [
+      "Experience in user research and creating user personas",
+      "Proficiency in wireframing and prototyping tools",
+      "Knowledge of usability testing methodologies",
+      "Strong understanding of design principles and typography",
+      "Proficiency in Adobe XD or similar design tools",
+    ],
+    responsibilities: [
+      "Conduct user research and create user personas",
+      "Design wireframes and interactive prototypes",
+      "Conduct usability testing and iterate based on feedback",
+      "Collaborate with developers to implement designs",
+    ],
   },
   {
     jobTitle: "Full Stack Developer",
@@ -315,14 +327,18 @@ export const jobData = [
     experience: "Senior",
     aboutUs:
       "TechSolutions Ltd. is a technology consulting company providing end-to-end software solutions. We are seeking skilled full stack developers to join our team and contribute to the development of complex web applications using modern technologies.",
-    requirements: `- Strong knowledge of HTML, CSS, and JavaScript
-    - Experience with Node.js and backend development
-    - Familiarity with front-end frameworks like React
-    - Proficiency in database technologies such as MongoDB
-    - Strong problem-solving and debugging skills`,
-    responsibilities: `- Develop and maintain web applications
-    - Implement both front-end and back-end functionalities
-    - Collaborate with cross-functional teams on project requirements
-    - Write clean and efficient code`,
+    requirements: [
+      "Strong knowledge of HTML, CSS, and JavaScript",
+      "Experience with Node.js and backend development",
+      "Familiarity with front-end frameworks like React",
+      "Proficiency in database technologies such as MongoDB",
+      "Strong problem-solving and debugging skills",
+    ],
+    responsibilities: [
+      "Develop and maintain web applications",
+      "Implement both front-end and back-end functionalities",
+      "Collaborate with cross-functional teams on project requirements",
+      "Write clean and efficient code",
+    ],
   },
 ];
