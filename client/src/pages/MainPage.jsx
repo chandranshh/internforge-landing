@@ -6,7 +6,10 @@ function MainPage() {
   return (
     <div>
       <Navbar />
-      <div className="flex mt-6 mx-4">
+      <div
+        className="flex mt-6 mx-4 "
+        style={{ height: "calc(100vh - 180px)" }}
+      >
         <Sidebar />
         <Details />
       </div>
