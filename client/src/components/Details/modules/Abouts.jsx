@@ -6,7 +6,7 @@ function Abouts() {
     <div>
       <div className="ml-16 mt-16">
         <div className="font-bold text-xl">About Us</div>
-        <div className="w-[900px] mt-3 text-xl">{selectedJob.aboutUs}</div>
+        <div className="w-[850px] mt-3 text-xl">{selectedJob.aboutUs}</div>
       </div>
       <div className="ml-16 mt-16">
         <div className="font-bold text-xl">Requirements:</div>
