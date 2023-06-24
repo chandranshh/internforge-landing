@@ -6,7 +6,7 @@ function MainPage() {
   return (
     <div>
       <Navbar />
-      <div className="flex mt-6 mx-4 h-screen">
+      <div className="flex mt-6 mx-4">
         <Sidebar />
         <Details />
       </div>
