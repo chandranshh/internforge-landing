@@ -9,7 +9,7 @@ import Profile2User from "../../../assets/DetailsCard/profile2user.png";
 import Timer from "../../../assets/DetailsCard/timer.png";
 import WalletMoney from "../../../assets/DetailsCard/walletmoney.png";
 import { useDispatch, useSelector } from "react-redux";
-import { setSelectedJob } from "../../../features/slices/jobSlice";
+import { setSelectedJob } from "../../../features/slices/selectedJob";
 
 function DetailsCard(props) {
   const { jobDetails } = props;

@@ -4,8 +4,8 @@ import { jobData } from "./constants/data.js";
 
 function Sidebar() {
   return (
-    <div className="w-[350px]">
-      <div>
+    <div style={{ height: "calc(100vh - 180px)" }} className="w-[350px]">
+      <div className="mb-7">
         <Selector />
       </div>
       <div className="flex flex-col overflow-y-scroll scrollbar-hide h-[100%]">

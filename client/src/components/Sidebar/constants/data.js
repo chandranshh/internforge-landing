@@ -78,15 +78,19 @@ export const jobData = [
     experience: "Senior",
     aboutUs:
       "Infinite Loop Technologies is a software development company specializing in enterprise solutions. Join our team of talented engineers to build scalable and robust software products using cutting-edge technologies.",
-    requirements: `- Strong programming skills in Java, Python, and C++
-  - Experience with database systems and SQL
-  - Knowledge of agile development methodologies
-  - Familiarity with software testing and debugging
-  - Strong problem-solving and teamwork skills`,
-    responsibilities: `- Develop high-quality software applications
-  - Collaborate with cross-functional teams on project requirements
-  - Write clean, efficient, and maintainable code
-  - Perform unit testing and debugging`,
+    requirements: [
+      "Strong knowledge of SEO and SEM principles",
+      "Experience with social media marketing and advertising",
+      "Proficiency in Google Analytics and other marketing tools",
+      "Excellent copywriting and content creation skills",
+      "Analytical mindset and ability to analyze campaign performance",
+    ],
+    responsibilities: [
+      "Develop and implement digital marketing campaigns",
+      "Optimize website content and landing pages for search engines",
+      "Manage social media accounts and run paid advertising campaigns",
+      "Monitor and analyze campaign performance metrics",
+    ],
   },
 
   {
