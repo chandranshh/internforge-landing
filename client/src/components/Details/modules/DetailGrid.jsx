@@ -10,6 +10,15 @@ import UserTick from "../../../assets/Details/usertick.png";
 
 function DetailGrid() {
   const selectedJob = useSelector((state) => state.selectedJob.selectedJob);
+
+  //postedOn
+  const date = new Date(selectedJob.postedOn);
+  const postedOn = date.toLocaleDateString();
+
+  //endsBy
+  const endsByDate = new Date(selectedJob.endsBy);
+  const endsBy = endsByDate.toLocaleDateString();
+
   return (
     <div>
       <div className="grid grid-cols-4 gap-3 p-6 max-w-fit items-center bg-purple-100 ml-16 rounded-2xl">
@@ -53,7 +62,7 @@ function DetailGrid() {
           <img className="h-[40px] w-[40px]" src={Calendar} alt="timer.png" />
           <div className=" flex flex-col justify-center items-start p-2">
             <div className="font-bold text-[1rem] text-gray-700">
-              {selectedJob.postedOn}
+              {postedOn}
             </div>
             <div className="text-[1rem] text-gray-700">Posted On</div>
           </div>
@@ -61,9 +70,7 @@ function DetailGrid() {
         <div className="flex items-center">
           <img className="h-[40px] w-[40px]" src={Clipboard} alt="timer.png" />
           <div className=" flex flex-col justify-center items-start p-2">
-            <div className="font-bold text-[1rem] text-gray-700">
-              {selectedJob.endsBy}
-            </div>
+            <div className="font-bold text-[1rem] text-gray-700">{endsBy}</div>
             <div className="text-[1rem] text-gray-700">Ends In</div>
           </div>
         </div>
