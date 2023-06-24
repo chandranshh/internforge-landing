@@ -11,7 +11,7 @@ function Details() {
   console.log(selectedJob);
   if (!selectedJob || Object.keys(selectedJob).length === 0) {
     return (
-      <div className="flex w-full h-full justify-center items-center text-2xl text-gray-500 font-semibold">
+      <div className="flex w-full h-[50%] justify-center items-center text-2xl text-gray-500 font-semibold">
         No job is selected. Please select a job to show it's details.
       </div>
     );
