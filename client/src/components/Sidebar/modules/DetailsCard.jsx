@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import { useState, useRef, useEffect } from "react";
 import SelectedBookmark from "../../../assets/DetailsCard/bookmark.png";
@@ -7,6 +8,8 @@ import ClipboardClose from "../../../assets/DetailsCard/clipboardclose.png";
 import Profile2User from "../../../assets/DetailsCard/profile2user.png";
 import Timer from "../../../assets/DetailsCard/timer.png";
 import WalletMoney from "../../../assets/DetailsCard/walletmoney.png";
+import { useDispatch, useSelector } from "react-redux";
+import { setSelectedJob } from "../../../features/slices/jobSlice";
 
 function DetailsCard(props) {
   const { jobDetails } = props;
@@ -16,6 +19,9 @@ function DetailsCard(props) {
   const [displayedSkills, setDisplayedSkills] = useState([]);
   const [remainingSkills, setRemainingSkills] = useState([]);
   const [remainingDays, setRemainingDays] = useState(0);
+
+  //Dispacch the selected job to redux store
+  const dispatch = useDispatch();
 
   const toggleBookmark = () => {
     setSelected(!selected);
@@ -83,8 +89,11 @@ function DetailsCard(props) {
   };
 
   return (
-    <>
-      <div className="flex flex-col gap-3 bg-white my-4 p-3 rounded-xl">
+    <div
+      className="cursor-pointer"
+      onClick={() => dispatch(setSelectedJob(jobDetails))}
+    >
+      <div className="flex flex-col gap-3 bg-white my-3 p-3 rounded-xl">
         <div className="flex justify-between items-center">
           <div>
             <div className="font-bold text-md">{jobDetails.jobTitle}</div>
@@ -146,7 +155,7 @@ function DetailsCard(props) {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
