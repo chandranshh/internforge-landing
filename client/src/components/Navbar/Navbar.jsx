@@ -20,7 +20,7 @@ function Navbar() {
   };
 
   return (
-    <div className="bg-[#FFFFFF] h-16 flex justify-around items-center shadow-md">
+    <div className="bg-[#FFFFFF] h-16 px-12 flex justify-between items-center shadow-md">
       <h1 className="font-bold text-black text-2xl cursor-pointer">
         TalentForge
       </h1>
