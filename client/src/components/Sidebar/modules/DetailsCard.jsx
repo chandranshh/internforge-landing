@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState, useRef, useEffect } from "react";
 import SelectedBookmark from "../../../assets/DetailsCard/bookmark.png";
 import NotBookmark from "../../../assets/DetailsCard/unbookmark.png";
@@ -113,14 +114,16 @@ function DetailsCard(props) {
               </div>
             ))}
             {remainingSkills.length > 0 && (
-              <div className="font-bold text-[#000000] px-2 py-1 text-xs">
-                +{remainingSkills.length}
+              <div className="font-extrabold text-[#000000] px-2 py-1 text-xs">
+                <span className="text-[#6938EF]">
+                  +{remainingSkills.length}
+                </span>
               </div>
             )}
           </div>
         </div>
-        <div className="">
-          <div className="grid grid-cols-2 gap-4 text-sm">
+        <div className="ml-3 mr-5 py-3">
+          <div className="grid grid-cols-2 gap-2 text-sm">
             <div className="flex items-center gap-2">
               <img src={Timer} alt="timer.png" />
               <span className="font-bold">{jobDetails.duration}</span>

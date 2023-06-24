@@ -8,7 +8,7 @@ function Sidebar() {
       <div>
         <Selector />
       </div>
-      <div className="h-[500px] overflow-y-scroll scrollbar-hide">
+      <div className="flex flex-col overflow-y-scroll scrollbar-hide h-[100%]">
         {jobData.map((job) => (
           <DetailsCard key={job.company} jobDetails={job} />
         ))}
