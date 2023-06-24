@@ -18,7 +18,7 @@ function Details() {
   }
 
   return (
-    <div className="w-full h-full bg-[#FFFFFF] rounded-lg transition-opacity duration-500">
+    <div className="w-full h-fit bg-[#FFFFFF] rounded-lg transition-opacity duration-500">
       <div
         className={`opacity-${
           Object.keys(selectedJob).length > 0 ? "100" : "0"

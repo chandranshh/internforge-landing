@@ -22,7 +22,7 @@ function Navbar() {
   return (
     <div className="bg-[#FFFFFF] h-16 flex justify-around items-center shadow-md">
       <h1 className="font-bold text-black text-2xl cursor-pointer">
-        InternBrand
+        TalentForge
       </h1>
       <div className="flex gap-8 font-bold">
         <div

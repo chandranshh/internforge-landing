@@ -19,7 +19,13 @@ function TopBar() {
           </div>
         </div>
         <div>
-          <img height={250} width={300} src={ReactangleImg} alt="img" />
+          <img
+            className="rounded-r-lg"
+            height={250}
+            width={300}
+            src={ReactangleImg}
+            alt="img"
+          />
         </div>
       </div>
     </div>
