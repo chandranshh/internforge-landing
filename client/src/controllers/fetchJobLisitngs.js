@@ -2,7 +2,9 @@ import axios from "axios";
 
 export const fetchJobListings = async () => {
   try {
-    const response = await axios.get("http://localhost:3001/api/jobs");
+    const response = await axios.get(
+      "https://internforge-backend.vercel.app/api/jobs"
+    );
     console.log(response.data);
     return response.data;
   } catch (error) {
