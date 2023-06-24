@@ -4,7 +4,7 @@ import { jobData } from "./constants/data.js";
 
 function Sidebar() {
   return (
-    <div className="w-[350px]">
+    <div style={{ height: "calc(100vh + 250px)" }} className="w-[350px]">
       <div className="mb-7">
         <Selector />
       </div>

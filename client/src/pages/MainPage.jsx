@@ -8,9 +8,9 @@ function MainPage() {
   const isSelect = useSelector((state) => state.isSelect);
 
   return (
-    <div>
+    <div className="mb-8">
       <Navbar />
-      <div className="flex mt-6 mx-4 h-fit">
+      <div className="flex mt-6 mx-4 ">
         <Sidebar />
         <div className="flex flex-col gap-2 w-full ml-8">
           <Searchbar />
