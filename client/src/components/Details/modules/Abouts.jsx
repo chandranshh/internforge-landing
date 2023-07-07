@@ -31,7 +31,7 @@ function Abouts() {
         </div>
       </div>
       <div className="ml-16 mt-16 text-[#6938EF] font-bold text-xl">
-        <a href="https://physicswallah.live/">Visit Website</a>
+        <a href="https://www.google.co.in/">Visit Website</a>
       </div>
       <div className="flex justify-center w-full">
         <button className="ml-16 mt-16 bg-[#6938EF] text-white font-extrabold rounded-full items-center px-12 py-4 text-2xl mb-16">
